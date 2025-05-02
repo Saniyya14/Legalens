@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legalens Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  
+
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">LEGALENS</div>
+      <nav class="nav-links">
+        <a href="#">📹 Video Tutorial</a>
+        <a href="#" class="active">📤 Upload Contract</a>
+        <a href="#">📊 Dashboard</a>
+        <a href="#">📑 Analyses</a>
+        <a href="#">🔁 Standards</a>
+        <a href="#">❓ Support</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <header class="topbar">
+        <div class="language">🌐 English</div>
+        <div class="profile">👤 Syeda Saniyya</div>
+      </header>
+
+      <section class="upload-box">
+        <p>Drag & drop your documents or</p>
+        <input type="file" id="fileInput" accept=".pdf,.doc,.docx" hidden />
+        <button type="button" class="upload-btn">⬆ Upload Here</button>
+        <p class="upload-note">(only .pdf, .doc and .docx | Max 10 MB)</p>
+      </section>
+      
+      
+      
+
+      <section class="recent-files">
+        <h3>Recently Added</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>File Name</th>
+              <th>Status</th>
+              <th>Type</th>
+              <th>Standard</th>
+              <th>Exposure</th>
+              <th>Added At</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="tag">Sample</span> DPA3.pdf</td>
+              <td><span class="status ready">Ready</span></td>
+              <td>DPA</td>
+              <td>Legalens DPA Market Standard V2.1</td>
+              <td><span class="exposure orange">54%</span></td>
+              <td>Jan 2, 2024</td>
+            </tr>
+            <tr>
+              <td><span class="tag">Sample</span> NDA5.pdf</td>
+              <td><span class="status ready">Ready</span></td>
+              <td>NDA</td>
+              <td>Legalens NDA Market Standard V4.1</td>
+              <td><span class="exposure yellow">46%</span></td>
+              <td>Jan 2, 2024</td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="view-all">View All ⌄</button>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
