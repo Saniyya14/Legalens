@@ -120,8 +120,8 @@ uploadBox.addEventListener("drop", (e) => {
       row.innerHTML = `
         <td><span class="tag">Sample</span> ContractX.pdf</td>
         <td><span class="status ready">Ready</span></td>
-        <td>MSA</td>
-        <td>SpeedLegal MSA Market V3.0</td>
+        
+        <td>Legalens Market V3.0</td>
         <td><span class="exposure orange">62%</span></td>
         <td>Jan 3, 2024</td>
       `;

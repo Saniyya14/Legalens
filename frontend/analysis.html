@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Legalens Analysis</title>
+  <link rel="stylesheet" href="analysis.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">LEGALENS</div>
+      <nav class="nav-links">
+        <a href="#">📹 Video Tutorial</a>
+        <a href="#">📤 Upload Contract</a>
+        <a href="#">📊 Dashboard</a>
+        <a href="#" class="active">📑 Analyses</a>
+        <a href="#">🔁 Standards</a>
+        <a href="#">❓ Support</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <div class="three-columns">
+        <div class="column pdf-viewer">
+          <h3>Original Contract</h3>
+          <iframe src="sample.pdf" width="100%" height="500px"></iframe>
+        </div>
+
+        <div class="column summary-box">
+          <h3>Summary</h3>
+          <div class="card">
+            <p>This contract outlines the engagement terms between the client and vendor. Key points include service timelines, payment terms, and dispute resolution clauses. NDA and indemnity sections are present but vary from the standard version.</p>
+          </div>
+        </div>
+
+        <div class="column risk-score-box">
+          <h3>Risk Exposure</h3>
+          <div class="circle" style="background-color: rgb(230, 142, 127);">
+            <span>74%</span>
+          </div>
+          <div class="actions">
+            <button class="btn">⬇ Download Summary</button>
+            <button class="btn secondary">📞 Contact Lawyer</button>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 20px;">
+        <b style="font-size: 2em;">We Recommend You: NOT TO SIGN THE CONTRACT</b>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+AZURE_OPENAI_API_KEY=b177db0e754849a9a02239e6bb1d67f8
+AZURE_OPENAI_ENDPOINT=https://AzOpenAIBootcamp.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview
+
